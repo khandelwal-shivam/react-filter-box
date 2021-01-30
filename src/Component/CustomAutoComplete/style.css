@@ -1,0 +1,39 @@
+.AutoComplete {
+    width : 100%;
+    border : 1px solid grey;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 4px 1px rgba(0,0,0,0.18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color : rgba(0,0,0,0.73);
+    padding-top : 10px;
+}
+
+.AutoComplete input{
+    width : 100%;
+    border : none;
+    box-sizing: border-box;
+    outline : none;
+}
+
+.AutoComplete ul{
+    list-style-type: none;
+    text-align: left;
+    margin : 0;
+    padding : 0;
+    z-index: 10;
+    /* border-top: 1px solid grey; */
+}
+
+.AutoComplete ul ::before{
+    content :none;
+}
+.AutoComplete li {
+    padding : 10px ;
+    cursor: pointer;
+}
+
+.AutoComplete li:hover {
+    background-color: rgba(128,128,128,0.2);
+    font-size : 1.1rem;
+    font-weight : 400;
+}
